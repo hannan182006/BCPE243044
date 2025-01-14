@@ -7,17 +7,17 @@ int main()
     cin>>days;
     if(days>0 && days<=5)
     {
-        cout<<"\nPer Day Fine Amount is : 0.50";
+        cout<<"\nPer Day Fine Amount is : 0.4";
         cout<<"\nTotal Fine Amount is : "<<days*0.50;
     }
     else if(days>=6 && days<=10)
     {
-        cout<<"\nPer Day Fine Amount is : 1";
+        cout<<"\nPer Day Fine Amount is : 0.6";
         cout<<"\nTotal Fine Amount is : "<<days*1;
     }
      else if(days>10 && days<=30)
     {
-        cout<<"\nPer Day Fine Amount is : 5";
+        cout<<"\nPer Day Fine Amount is : 0.8";
         cout<<"\nTotal Fine Amount is : "<<days*5;
     }
     else
